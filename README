@@ -1,0 +1,27 @@
+Unofficial bootloader unlocking method for all qualcomm devices
+				By NAVEEN SINGH
+DESCLAIMER :-
+This method is unofficial & may brick your device (in 1% cases)
+I'm not responsible for any loss or harm done to your device, sdcard, PC, home, ferrari etc.
+If You are using this method to unlock bootloader, use at your own risk !
+
+
+Steps to unlock bootloader :-
+
+1. Extract the BLUnlocker_v1.zip (You have done this already, trust me, i know you did it :)
+2. Install Qualcomm USB Driver for Qdloader 9008 mode.
+3. Get your phone, press vol up & down buttons together & connect USB at the same time.
+4. Extract your firehose file from your stock firmware (It's usually named like 'rog_emmc_firehose_chipset.mbn') & place it in the current directory.
+5. Check the port number your device is connected to in WIndows Device Manager. (Looks like COM*)
+6. Double Click the 'dump_devinfo.bat' file.
+7. Enter the port  number (from step 5) & press enter
+8. Edit your devinfo.img using HxD Hex Editor as shown in my video (Or you can comment on my channel with a link to your devinfo.img)
+9. Double click 'unlock.bat'
+
+If all went good, your bootloader is unlocked now!
+Thanks me later, go break some eggs !
+Peace !
+
+Twitter	:	@Naveen3Singh
+Github	:	https://github.com/Naveen3Singh
+YouTube	:	https://youtube.com/linuxauthority
